@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 curl -sS https://get.docker.com/ | sh
 systemctl start docker
 systemctl enable docker
